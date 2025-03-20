@@ -664,8 +664,11 @@ img {
   padding: 0;
   fill: #2e2f42;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
