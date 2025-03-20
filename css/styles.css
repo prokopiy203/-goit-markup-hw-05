@@ -598,12 +598,12 @@ img {
 }
 
 .label-subscribe {
-  gap: 24px;
   display: flex;
 }
 
 .subscribe-list {
   display: flex;
+  gap: 24px;
 }
 
 /* ========== Subscribe ========== */
